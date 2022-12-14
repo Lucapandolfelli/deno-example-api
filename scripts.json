@@ -1,0 +1,14 @@
+{
+  "$schema": "https://deno.land/x/denon@2.5.0/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno run --allow-net server.ts"
+    },
+    "dev": {
+      "cmd": "deno run --allow-net --watch server.ts"
+    },
+    "format": {
+      "cmd": "deno fmt"
+    }
+  }
+}
